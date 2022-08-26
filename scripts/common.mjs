@@ -56,7 +56,7 @@ libraries = libraries
       testsPath: pathlib.join(__dirname, "..", "libraries", name),
       metaPath: pathlib.join(__dirname,"..", "libraries", name, "meta"),
       resultsPath: pathlib.join(__dirname,"..", "libraries", name, "results"),
-      docsPath: pathlib.join(__dirname,"..", "docs", "libraries", name),
+      docsPath: pathlib.join(__dirname,"..", "pages", "libraries", name),
       packageJson: JSON.parse(fs.readFileSync(pathlib.join(__dirname, "..", "libraries", name, "package.json")))
     };
   });

@@ -4,7 +4,7 @@ npm-debug.log
 libraries/*/results
 .vscode
 .env
-docs/libraries
+pages/libraries
 out
 .firebase
 .wireit

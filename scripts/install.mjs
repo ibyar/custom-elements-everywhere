@@ -21,7 +21,7 @@ async function install() {
     {name: join('__shared__', 'webcomponents')},
   ];
   const packages = allLibs.map((lib) => join(__dirname, '..', 'libraries', lib.name));
-  packages.push(join(__dirname, '..', 'docs'));
+  packages.push(join(__dirname, '..', 'pages'));
   const progress = ora('Installing deps of subpackages').start();
   for (const pkg of packages) {
     progress.text = `Running \`npm ci\` in ${pkg}`;

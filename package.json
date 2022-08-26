@@ -53,13 +53,13 @@
         "./libraries/vue:build"
       ],
       "output": [
-        "docs/libraries"
+        "pages/libraries"
       ],
       "command": "node scripts/copy-and-verify-results.mjs"
     },
     "build": {
       "dependencies": [
-        "./docs:build"
+        "./pages:build"
       ]
     },
     "start": {
