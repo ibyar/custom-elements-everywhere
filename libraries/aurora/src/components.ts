@@ -21,7 +21,7 @@ import 'ce-with-children';
 import 'ce-with-properties';
 import 'ce-with-event';
 
-import { AfterViewInit, Component, HostListener} from '@ibyar/aurora';
+import { Component, HostListener} from '@ibyar/aurora';
 
 
 @Component({
@@ -55,10 +55,10 @@ export class ComponentWithChildren {
     </div>
   `
 })
-export class ComponentWithChildrenRerender implements AfterViewInit {
+export class ComponentWithChildrenRerender {
   count = 1;
 
-  afterViewInit() {
+  updateCount() {
     Promise.resolve().then(() => this.count++);
   }
 }
