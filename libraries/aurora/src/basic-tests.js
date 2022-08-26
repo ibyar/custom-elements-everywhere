@@ -61,10 +61,14 @@ describe("basic support", function() {
       document.body.append(el);
       let wc = el.querySelector("#wc");
       expectHasChildren(wc);
-      Promise.resolve().then(() => {
-        expect(wc.textContent.includes("2")).to.be.true;
-        el.remove();
-        done();
+      el._model.updateCount();
+
+      Promise.resolve()
+        .then(() => el._modelScope.detectChanges())
+        .then(() => {
+          expect(wc.textContent.includes("2")).to.be.true;
+          el.remove();
+          done();
       });
     });
 
