@@ -61,11 +61,11 @@ describe("basic support", function() {
       document.body.append(el);
       let wc = el.querySelector("#wc");
       expectHasChildren(wc);
-      setTimeout(() => {
+      Promise.resolve().then(() => {
         expect(wc.textContent.includes("2")).to.be.true;
         el.remove();
         done();
-      }, 1000);
+      });
     });
 
     it("can display a Custom Element with children in a Shadow Root and handle hiding and showing the element", function() {
