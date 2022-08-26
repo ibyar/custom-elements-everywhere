@@ -26,6 +26,7 @@ npm start
 ## Current List of [Libraries/Frameworks](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries)
 - [Angular](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/angular)
 - [AngularJs](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/angularjs)
+- [Aurora](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/aurora)
 - [Dio](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/dio)
 - [Dojo](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/dojo)
 - [Hybrids](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/hybrids)

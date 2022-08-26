@@ -22,6 +22,7 @@ const marked = require("marked");
 const libraryMap = {
   angular: "Angular",
   angularjs: "AngularJS (1.x)",
+  aurora: "Aurora (Ibyar)",
   dio: "DIO",
   dojo: "Dojo",
   hybrids: "hybrids",

@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "target": "ES2020",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": ["ES2020", "DOM"]
+  },
+  "types": [
+    "mocha",
+    "node"
+  ],
+  "files": [
+    "tests.webpack.ts"
+  ],
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
