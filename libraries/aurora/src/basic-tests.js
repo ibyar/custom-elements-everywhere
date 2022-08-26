@@ -76,10 +76,12 @@ describe("basic support", function() {
       let wc = root.querySelector("#wc");
       expectHasChildren(wc);
       component.toggle();
+      root._modelScope.detectChanges();
       let dummy = root.querySelector("#dummy");
       expect(dummy).to.exist;
       expect(dummy.textContent).to.eql("Dummy view");
       component.toggle();
+      root._modelScope.detectChanges();
       wc = root.querySelector("#wc");
       expectHasChildren(wc);
       root.remove();

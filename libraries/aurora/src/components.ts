@@ -21,7 +21,7 @@ import 'ce-with-children';
 import 'ce-with-properties';
 import 'ce-with-event';
 
-import { bootstrapZone, Component, HostListener, OnDestroy, OnInit} from '@ibyar/aurora';
+import { /* bootstrapZone, */ Component, HostListener, OnDestroy, OnInit} from '@ibyar/aurora';
 // bootstrapZone('proxy');
 
 @Component({
@@ -48,6 +48,7 @@ export class ComponentWithChildren {
 
 @Component({
   selector: 'component-with-children-rerender',
+  zone: 'proxy',
   template: `
     <div>
       <ce-with-children id="wc">{{count}}</ce-with-children>
