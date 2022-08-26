@@ -21,8 +21,8 @@ import 'ce-with-children';
 import 'ce-with-properties';
 import 'ce-with-event';
 
-import { /* bootstrapZone, */ Component, HostListener, OnDestroy, OnInit} from '@ibyar/aurora';
-// bootstrapZone('proxy');
+import { AfterViewInit, Component, HostListener} from '@ibyar/aurora';
+
 
 @Component({
   selector: 'component-without-children',
@@ -55,14 +55,11 @@ export class ComponentWithChildren {
     </div>
   `
 })
-export class ComponentWithChildrenRerender implements OnInit, OnDestroy {
+export class ComponentWithChildrenRerender implements AfterViewInit {
   count = 1;
-  interval = undefined;
-  onInit() {
-    this.interval = setInterval(() => this.count += 1, 1000);
-  }
-  onDestroy() {
-    clearInterval(this.interval);
+
+  afterViewInit() {
+    Promise.resolve().then(() => this.count++);
   }
 }
 
