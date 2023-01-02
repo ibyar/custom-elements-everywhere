@@ -22,7 +22,7 @@
     "webpack": "5.74.0"
   },
   "dependencies": {
-    "@ibyar/aurora": "0.6.1"
+    "@ibyar/aurora": "^0.8.4"
   },
   "wireit": {
     "test": {
