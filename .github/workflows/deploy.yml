@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: google/wireit@setup-github-actions-caching/v1
       - name: Checkout
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v3.2.0
 
       - name: Install
         run: |
@@ -20,7 +20,7 @@ jobs:
           npm run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.4.0
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: out # The folder the action should deploy.
