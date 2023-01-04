@@ -21,7 +21,7 @@ import 'ce-with-children';
 import 'ce-with-properties';
 import 'ce-with-event';
 
-import { Component, HostListener} from '@ibyar/aurora';
+import { Component} from '@ibyar/aurora';
 
 
 @Component({
@@ -130,13 +130,12 @@ export class ComponentWithUnregistered {
   template: `
     <div>
       <div id="handled">{{eventHandled}}</div>
-      <ce-with-event #customEl id="wc"></ce-with-event>
+      <ce-with-event id="wc" (camelEvent)="handleTestEvent()"></ce-with-event>
     </div>
   `
 })
 export class ComponentWithImperativeEvent {
   eventHandled = false;
-  @HostListener('customEl:camelEvent')
   handleTestEvent() {    
     this.eventHandled = true;
   }
