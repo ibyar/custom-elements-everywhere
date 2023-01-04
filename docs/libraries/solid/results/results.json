@@ -21,18 +21,18 @@
     "browsers": [
         {
             "browser": {
-                "id": "40230906",
-                "fullName": "FirefoxHeadless",
-                "name": "FirefoxHeadless",
+                "id": "33956134",
+                "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/108.0.5359.124 Safari/537.36",
+                "name": "Chrome Headless 108.0.5359.124 (Linux x86_64)",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1661500049972,
+                    "startTime": 1672642616432,
                     "total": 15,
                     "success": 15,
                     "failed": 0,
                     "skipped": 0,
-                    "totalTime": 747,
-                    "netTime": 551,
+                    "totalTime": 152,
+                    "netTime": 35,
                     "error": false,
                     "disconnected": false
                 },
@@ -51,11 +51,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 100,
+                    "time": 5,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049185,
-                    "endTime": 1661500049286,
+                    "startTime": 1672642616434,
+                    "endTime": 1672642616439,
                     "weight": 3
                 },
                 {
@@ -67,11 +67,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 25,
+                    "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049363,
-                    "endTime": 1661500049389,
+                    "startTime": 1672642616440,
+                    "endTime": 1672642616442,
                     "weight": 3
                 },
                 {
@@ -83,11 +83,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 81,
+                    "time": 4,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049521,
-                    "endTime": 1661500049602,
+                    "startTime": 1672642616442,
+                    "endTime": 1672642616446,
                     "weight": 3
                 },
                 {
@@ -99,11 +99,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 6,
+                    "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049630,
-                    "endTime": 1661500049638,
+                    "startTime": 1672642616472,
+                    "endTime": 1672642616474,
                     "weight": 3
                 },
                 {
@@ -115,11 +115,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 3,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049706,
-                    "endTime": 1661500049709,
+                    "startTime": 1672642616475,
+                    "endTime": 1672642616476,
                     "weight": 3
                 },
                 {
@@ -131,11 +131,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 6,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049709,
-                    "endTime": 1661500049711,
+                    "startTime": 1672642616476,
+                    "endTime": 1672642616482,
                     "weight": 3
                 },
                 {
@@ -147,11 +147,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 58,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049712,
-                    "endTime": 1661500049770,
+                    "startTime": 1672642616482,
+                    "endTime": 1672642616482,
                     "weight": 3
                 },
                 {
@@ -163,11 +163,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 49,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049814,
-                    "endTime": 1661500049863,
+                    "startTime": 1672642616483,
+                    "endTime": 1672642616484,
                     "weight": 3
                 },
                 {
@@ -179,11 +179,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 48,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049866,
-                    "endTime": 1661500049914,
+                    "startTime": 1672642616484,
+                    "endTime": 1672642616485,
                     "weight": 2
                 },
                 {
@@ -195,11 +195,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 4,
+                    "time": 5,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500049973,
-                    "endTime": 1661500049977,
+                    "startTime": 1672642616486,
+                    "endTime": 1672642616491,
                     "weight": 2
                 },
                 {
@@ -211,11 +211,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 105,
+                    "time": 3,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500050015,
-                    "endTime": 1661500050120,
+                    "startTime": 1672642616496,
+                    "endTime": 1672642616499,
                     "weight": 2
                 },
                 {
@@ -227,11 +227,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 4,
+                    "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500050176,
-                    "endTime": 1661500050180,
+                    "startTime": 1672642616501,
+                    "endTime": 1672642616503,
                     "weight": 1
                 },
                 {
@@ -243,11 +243,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 5,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500050223,
-                    "endTime": 1661500050228,
+                    "startTime": 1672642616503,
+                    "endTime": 1672642616504,
                     "weight": 1
                 },
                 {
@@ -259,11 +259,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 57,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500050229,
-                    "endTime": 1661500050286,
+                    "startTime": 1672642616505,
+                    "endTime": 1672642616506,
                     "weight": 1
                 },
                 {
@@ -275,29 +275,29 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 5,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500050377,
-                    "endTime": 1661500050382,
+                    "startTime": 1672642616506,
+                    "endTime": 1672642616507,
                     "weight": 1
                 }
             ]
         },
         {
             "browser": {
-                "id": "64621953",
-                "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/104.0.5112.101 Safari/537.36",
-                "name": "Chrome Headless 104.0.5112.101 (Linux x86_64)",
+                "id": "48307243",
+                "fullName": "FirefoxHeadless",
+                "name": "FirefoxHeadless",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1661500001257,
+                    "startTime": 1672642631619,
                     "total": 15,
                     "success": 15,
                     "failed": 0,
                     "skipped": 0,
-                    "totalTime": 482,
-                    "netTime": 302,
+                    "totalTime": 380,
+                    "netTime": 163,
                     "error": false,
                     "disconnected": false
                 },
@@ -316,11 +316,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 4,
+                    "time": 21,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001260,
-                    "endTime": 1661500001278,
+                    "startTime": 1672642631615,
+                    "endTime": 1672642631636,
                     "weight": 3
                 },
                 {
@@ -332,11 +332,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 43,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001280,
-                    "endTime": 1661500001323,
+                    "startTime": 1672642631637,
+                    "endTime": 1672642631638,
                     "weight": 3
                 },
                 {
@@ -348,11 +348,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 16,
+                    "time": 3,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001324,
-                    "endTime": 1661500001340,
+                    "startTime": 1672642631659,
+                    "endTime": 1672642631663,
                     "weight": 3
                 },
                 {
@@ -364,11 +364,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 13,
+                    "time": 22,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001436,
-                    "endTime": 1661500001449,
+                    "startTime": 1672642631687,
+                    "endTime": 1672642631710,
                     "weight": 3
                 },
                 {
@@ -380,11 +380,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 27,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001450,
-                    "endTime": 1661500001451,
+                    "startTime": 1672642631712,
+                    "endTime": 1672642631739,
                     "weight": 3
                 },
                 {
@@ -399,8 +399,8 @@
                     "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001451,
-                    "endTime": 1661500001452,
+                    "startTime": 1672642631740,
+                    "endTime": 1672642631740,
                     "weight": 3
                 },
                 {
@@ -412,11 +412,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 36,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001453,
-                    "endTime": 1661500001489,
+                    "startTime": 1672642631741,
+                    "endTime": 1672642631741,
                     "weight": 3
                 },
                 {
@@ -428,11 +428,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 53,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001490,
-                    "endTime": 1661500001492,
+                    "startTime": 1672642631743,
+                    "endTime": 1672642631796,
                     "weight": 3
                 },
                 {
@@ -444,11 +444,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 14,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001493,
-                    "endTime": 1661500001507,
+                    "startTime": 1672642631840,
+                    "endTime": 1672642631841,
                     "weight": 2
                 },
                 {
@@ -460,11 +460,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 21,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001507,
-                    "endTime": 1661500001529,
+                    "startTime": 1672642631889,
+                    "endTime": 1672642631890,
                     "weight": 2
                 },
                 {
@@ -476,11 +476,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 41,
+                    "time": 4,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001530,
-                    "endTime": 1661500001572,
+                    "startTime": 1672642631890,
+                    "endTime": 1672642631896,
                     "weight": 2
                 },
                 {
@@ -492,11 +492,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 31,
+                    "time": 7,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001603,
-                    "endTime": 1661500001634,
+                    "startTime": 1672642631920,
+                    "endTime": 1672642631927,
                     "weight": 1
                 },
                 {
@@ -508,11 +508,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 38,
+                    "time": 14,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001638,
-                    "endTime": 1661500001676,
+                    "startTime": 1672642631928,
+                    "endTime": 1672642631942,
                     "weight": 1
                 },
                 {
@@ -524,11 +524,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 22,
+                    "time": 4,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001677,
-                    "endTime": 1661500001699,
+                    "startTime": 1672642631952,
+                    "endTime": 1672642631956,
                     "weight": 1
                 },
                 {
@@ -540,11 +540,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 20,
+                    "time": 5,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1661500001700,
-                    "endTime": 1661500001720,
+                    "startTime": 1672642631956,
+                    "endTime": 1672642631961,
                     "weight": 1
                 }
             ]
